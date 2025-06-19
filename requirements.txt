@@ -108,6 +108,7 @@ terminado==0.18.1
 tinycss2==1.4.0
 tokenizers==0.21.1
 torch==2.7.0
+torchinfo==1.8.0
 torchvision==0.22.0
 tornado==6.5.1
 tqdm==4.67.1
@@ -124,3 +125,4 @@ webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
 widgetsnbextension==4.0.14
+sklearn==
