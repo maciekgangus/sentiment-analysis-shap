@@ -1,14 +1,11 @@
 # utils/preprocessing.py
 import re
-from collections import defaultdict, Counter
 import pandas as pd
 import torch
 import torch.nn.functional as F
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-import shap
-import numpy as np
-import matplotlib.pyplot as plt
+
 
 DEFAULT_STOPWORDS = set("""
 i me my myself we our ours ourselves you your yours yourself yourselves
